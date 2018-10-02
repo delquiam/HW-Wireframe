@@ -12,6 +12,7 @@ body{
     background: #777;
     width:  960px;
     font-size: 18px;
+   
 }
 
 #header{
@@ -19,8 +20,8 @@ body{
     height: 60px;
     margin-left:  100px;
     margin-right:  100px;
-    width:  1050px;
-   
+    width:  860px;
+    text-align:  center;   
 }
 
 #nav{   
@@ -28,7 +29,8 @@ body{
     height: 60px;
     margin-left:  100px;
     margin-right:  100px;
-    width:  1050px;
+    width: 860px;
+    text-align:  center; 
 }
 
 #full{   
@@ -36,49 +38,56 @@ body{
     margin-bottom:  20px;
     padding:  20px;
     width:  495px;
-    height:  300px;
+    height:  200px;
     margin-left:  100px;
     margin-top:  10px;   
+    float:  left;
+    text-align:  center; 
     }    
 
     article{   
     background: #777;
-    color:  #ebebeb;
-    margin-left:  10px;
-    padding-top: 20px;
+    color:  #ebebeb;    
     width:475px;
-    height:  250px;
+    height:  150px;
+    text-align:  center; 
     }
 
-    #h1,h2,h3{
+    #aside {
+        background:  #ebebeb;
+        float: left;
+        width:  315px;
+        height:  240px; 
+        margin-top:  10px; 
+        margin-left:  10px; 
+        text-align:  center; 
+    }
+    
+    #h1{
         color:  #777;
         background:  #ebebeb;
-        
-       
-
+        width:  460px;
+        height:  30px;
+        margin:  10px;
+        text-align:  center;       
     }
 
-aside {
-    background:  #ebebeb;
-    float:  right;
-    margin-bottom:  20px;
-    width:  465px;
-    height:  300px;   
-    margin-right:  200px;
-
-}
-   
-
-
-
-
+    #p{
+        color:  #777;
+        background:  #ebebeb;
+        width:  460px;
+        height:  30px;
+        margin:  10px;
+        text-align:  center; 
+    }   
 
 footer{
    background: #ebebeb;
    height: 60px;
    margin-left:  100px;
    margin-right:  100px;
-   width:  1050px;
+   width:  860px;
    clear:  both;
+   text-align:  center; 
 }
    
