@@ -1,3 +1,11 @@
+
+{
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+
+
 body{
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color:  #777;
@@ -12,6 +20,7 @@ body{
     margin-left:  100px;
     margin-right:  100px;
     width:  1050px;
+   
 }
 
 #nav{   
@@ -49,16 +58,14 @@ body{
 
     }
 
-.aside {
+aside {
     background:  #ebebeb;
+    float:  right;
     margin-bottom:  20px;
-    padding:  20px;
-    margin-right:  20px;
-    width:  225px;
-    height:  300px;
-    margin-top:  10px;
-    float: right;
-   
+    width:  465px;
+    height:  300px;   
+    margin-right:  200px;
+
 }
    
 
@@ -72,5 +79,6 @@ footer{
    margin-left:  100px;
    margin-right:  100px;
    width:  1050px;
+   clear:  both;
 }
    
