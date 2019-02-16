@@ -1,2 +1,2 @@
 # HW-Wireframe
-Homework 1 Repo
+In this project, I created  a web design skeleton using HTML and CSS.
